@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/space-mono-v12-latin-regular.woff'),
+  url(../fonts/space-mono-v12-latin-regular.woff2);
+}
