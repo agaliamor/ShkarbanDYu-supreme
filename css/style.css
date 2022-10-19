@@ -3,5 +3,64 @@
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/space-mono-v12-latin-regular.woff'),
-  url(../fonts/space-mono-v12-latin-regular.woff2);
+  url('../fonts/space-mono-v12-latin-regular.woff2');
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', sans-serif;
+}
+
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+  background-image: url(../img/png/background.png);
+	background-attachment: fixed; 
+}
+
+body .wrapper {
+  width: 307px;
+  position: relative;
+  font-size: 20px;
+}
+
+header .logo__img {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  margin-top: 180px; 
+  margin-bottom: 38px; 
+}
+
+header .title {
+  color: white;
+}
+header .nav a {
+  text-decoration: none;
+  color: white;
+}
+
+header .nav {
+  margin-bottom: 77.99px;
+}
+header .links {
+  display: block;
+  padding: 5px;
+  line-height: 35px;
+}
+
+header .links:first-child {
+  background-color: #FF0000;
+  width: 57px;
+  padding: 0 0 5px 5px;
+}
+
+footer .social a {
+  max-width: 307px;
+  margin: 0 auto;
+  padding: 29.99px;
+}
+
