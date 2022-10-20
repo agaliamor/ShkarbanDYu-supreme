@@ -24,7 +24,7 @@ body {
 body .wrapper {
   width: 307px;
   position: relative;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 header .logo__img {
@@ -37,6 +37,10 @@ header .logo__img {
 
 header .title {
   color: white;
+  display: flex;
+  line-height: 29.62px;
+  justify-content: space-around;
+  margin-bottom: 91px;
 }
 header .nav a {
   text-decoration: none;
@@ -55,12 +59,30 @@ header .links {
 header .links:first-child {
   background-color: #FF0000;
   width: 57px;
-  padding: 0 0 5px 5px;
 }
 
+footer .social {
+  padding-bottom: 180px;
+}
 footer .social a {
   max-width: 307px;
   margin: 0 auto;
   padding: 29.99px;
 }
 
+@media screen and (max-width: 400px) {
+  header .logo__img {
+    margin: 0 auto;
+    margin-top: 116px;
+  }
+
+  header .title {
+    margin-top: 38px;
+  }
+  
+  footer .social {
+    padding: 0;
+    margin-bottom: 116px;
+
+}
+  
