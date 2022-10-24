@@ -26,6 +26,8 @@ body {
 
 body .wrapper {
   font-size: 20px;
+  position: relative;
+  margin: 0 auto;
 }
 
 header {
@@ -60,30 +62,67 @@ main .photo {
 
 main .arrow {
 	margin-top: 50px;
-  margin-bottom: 100px; /* Исправить */
+  margin-bottom: 125px;
 }
 
 main .text__block {
 	width: 400px;
 	height: 257px;
 	margin: 0 auto;
-  margin-left: 30px; /* Исправить */
-  margin-top: 60px; /* Исправить */
+  margin-left: 20px;
+  margin-top: 62px;
 } 
+
+main .link {
+  color: white;
+  margin-top: 290px; 
+  background-color: #FF0000;
+  width: 86px;
+}
 
 footer .nav a {
   line-height: 29.62px;
+  display: inline-block;
+  padding: 10px;
 }
 
 footer .nav {
 	margin: 0 auto;
 	display: flex;
-  margin-bottom: 150px; /* Исправить */
+  margin-bottom: 99px;
 }
 
 footer .links {
   padding: 5px;
   line-height: 35px;
+}
+
+@media screen and (max-width: 425px) {
+  .wrapper {
+    max-width: 425%;
+    flex-direction: column;
+    
+  }
+  header .logo {
+    display: block;
+    text-align: center;
+    margin-top: 116px; 
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  main .sup-man {
+    width: 390px;
+  }
+
+  main .arrow {
+    margin-top: 50px;
+    margin-bottom: 125px;
+    
+  }
 }
 
 
