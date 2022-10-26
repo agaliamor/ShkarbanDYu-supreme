@@ -118,10 +118,32 @@ footer .links {
     width: 390px;
   }
 
+  main .photo {
+    margin: 0 auto;
+    padding: 0;
+  }
+
   main .arrow {
-    margin-top: 50px;
-    margin-bottom: 125px;
-    
+    margin-top: 20px;
+    margin: 0 auto; 
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  
+  main .text__block {
+    margin: 0 auto;
+  }
+
+  main .title__date {
+    font-weight: 700;
+  }
+
+  main .link {
+    display: none;
+  }
+
+  footer .nav {
+    display: none;
   }
 }
 
