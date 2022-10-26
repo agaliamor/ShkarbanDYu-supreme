@@ -56,7 +56,7 @@ header .links {
   line-height: 35px;
 }
 
-header .links:first-child {
+header .nav .links a:hover{
   background-color: #FF0000;
   width: 57px;
 }
